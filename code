@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    float gallon = 20, mpgt = 23.5, mpgh = 28.9, tmiles, hmiles;
+
+    tmiles = gallon * mpgt;
+    hmiles = gallon * mpgh;
+
+    cout<<"The distance the car can drive in the town is "<<tmiles<<" miles"<<endl;
+    cout<<"The distance the car can drive on the Highway is "<<hmiles<<" miles"<<endl;
+}
