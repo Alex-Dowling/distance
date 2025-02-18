@@ -10,4 +10,5 @@ int main()
 
     cout<<"The distance the car can drive in the town is "<<tmiles<<" miles"<<endl;
     cout<<"The distance the car can drive on the Highway is "<<hmiles<<" miles"<<endl;
+    return 0:
 }
